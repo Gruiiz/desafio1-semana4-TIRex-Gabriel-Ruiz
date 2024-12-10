@@ -1,6 +1,13 @@
+.body {
+  margin: 0;
+  padding: 0;
+  min-width: 1440px;
+}
+
 .header {
+    width: 100%;
     max-width: 1440px;
-    max-height: 80px;
+    height: 80px;
     padding: 20px;
     background-color: #331436;
     display: flex;
@@ -8,6 +15,8 @@
     align-items: center;
     gap: 20px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
   }
   
   .logo img {
@@ -16,16 +25,16 @@
     border-radius: 50px;
   }
   
-  .title {
+  .header-title {
     width: 1070px;
     height: 36px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
     color: #FFFFFF;
-    text-underline-position: from-font;
+    text-underline-position: under;
     text-decoration-skip-ink: none;
   }
   
@@ -50,13 +59,99 @@
     width: 240px;
     height: 48px;
     background: #CB4F57;
-    color: #FFFFFF; 
+    color: #FCF4B6; 
     border: none;
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0px;
+    border-radius: 8px;
   }
+
+  .main-section {
+    width: 100%;
+    max-width: 1440px;
+    height: 496px;
+    padding: 30px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: #7A1745;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .ms-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 520px;
+    gap: 16px;
+  }
+
+  .ms-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: under;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
+
+.ms-title-span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #FCF4B6;
+}
+
+.ms-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ms-primary-button {
+  width: 240px;
+  height: 48px;
+  padding: 12px 0;
+  background-color: #CB4F57;
+  border: none;
+  border-radius: 8px 0 0 0;
+  cursor: pointer;
+  margin-top: 0;
+  border-radius: 8px;
+}
+
+.ms-button-text {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #FCF4B6;
+}
+
+.ms-container2 {
+  width: 540px;
+  height: 437px;
+}
+
+.ms-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
