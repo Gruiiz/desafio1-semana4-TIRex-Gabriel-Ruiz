@@ -673,8 +673,6 @@
   padding: 60px 170px;
   gap: 60px;
   max-width: 1440px;
-  height: 600px;
-  min-height: 600px;
   margin: 0 auto;
   box-sizing: border-box; 
 }
@@ -685,7 +683,6 @@
   align-items: flex-start;
   gap: 24px;
   width: 520px;
-  height: 96px;
 }
 
 .lp-title {
