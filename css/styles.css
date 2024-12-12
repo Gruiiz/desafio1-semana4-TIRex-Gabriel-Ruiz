@@ -18,6 +18,12 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
   
   .logo img {
     width: 50px;
@@ -656,4 +662,134 @@
 
 .footer-link {
   text-decoration: none;
+}
+
+.loginPage-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 170px;
+  gap: 60px;
+  max-width: 1440px;
+  height: 600px;
+  min-height: 600px;
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+
+.lp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 520px;
+  height: 96px;
+}
+
+.lp-title {
+  width: 520px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #331436;
+  margin: 0;
+}
+
+.lp-description {
+  width: 520px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #331436;
+  margin: 0;
+}
+
+.lp-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 520px;
+  height: 248px;
+}
+
+.lp-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+  width: 520px;
+  height: 60px;
+}
+
+.lp-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  width: 520px;
+  height: 60px;
+}
+
+.lp-title-input {
+  width: 520px;
+  height: 20px;
+}
+
+.lp-text-input {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #331436;
+}
+
+.lp-textfield {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 4px;
+  width: 520px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lp-primary-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 240px;
+  height: 48px;
+  background: #331436;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.lp-button-text {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
 }
