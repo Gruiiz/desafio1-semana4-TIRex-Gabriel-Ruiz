@@ -13,11 +13,9 @@
         </div>
         <h1 class="header-title">Project Manager</h1>
         <nav class="navigation">
-            <a href="loginPage.html">
-            <button class="login-button">
+            <button id="login-button" class="login-button">
                 <span class="login-text">Login</span>
             </button>
-            </a>
         </nav>
     </header>
 
@@ -148,31 +146,30 @@
                 <h2 class="s4-title">Subscribe to Updates</h2>
                 <p class="s4-description">Stay informed with our latest updates</p>
             </div>
-        
-            <div class="s4-list">
-                <div class="s4-row">
-                    <div class="s4-input">
-                        <div class="s4-title-input">
-                            <span class="s4-text-input">Email</span>
+            <form class="subscribe-form">
+                <div class="s4-list">
+                    <div class="s4-row">
+                        <div class="s4-input">
+                            <div class="s4-title-input">
+                                <span class="s4-text-input">Email</span>
+                            </div>
+                            <input type="text" id="s4-email" class="s4-textfield" placeholder="Enter your email">
+                            <div class="s4-info">We promise not to spam</div>
                         </div>
-                        <input type="text" class="s4-textfield" placeholder="Enter your email">
-                        <div class="s4-info">We promise not to spam</div>
                     </div>
-                </div>
-        
-                <div class="s4-row">
-                    <div class="s4-input">
-                        <div class="s4-title-input">
-                            <span class="s4-text-input">Name</span>
+                    <div class="s4-row">
+                        <div class="s4-input">
+                            <div class="s4-title-input">
+                                <span class="s4-text-input">Name</span>
+                            </div>
+                            <input type="text" id="s4-name" class="s4-textfield" placeholder="Enter your name">
                         </div>
-                        <input type="text" class="s4-textfield" placeholder="Enter your name">
                     </div>
+                    <button type="submit" class="s4-primary-button">
+                        <span class="s4-button-text">Subscribe</span>
+                    </button>
                 </div>
-        
-                <button class="s4-primary-button">
-                    <span class="s4-button-text">Subscribe</span>
-                </button>
-            </div>
+            </form>
         </section>
     </main>
 
@@ -220,6 +217,6 @@
             <a class="footer-link">Terms of Service</a>
         </div>
     </footer>
-    
+    <script src="./javascript/js.js"></script>
 </body>
 </html>

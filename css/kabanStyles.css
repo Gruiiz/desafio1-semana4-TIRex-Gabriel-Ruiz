@@ -23,12 +23,17 @@
     width: 50px;
     height: 50px;
     border-radius: 50px;
+    transition: transform 0.3s ease;
+  }
+
+.logo img:hover {
+transform: scale(1.1);
 }
 
 .header-title {
     width: 758px;
     height: 36px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
@@ -38,7 +43,7 @@
 .kb-navigation {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
     margin-left: auto;
     max-width: 552px;
     overflow: hidden;
@@ -61,6 +66,11 @@
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FCF4B6;
 }
 
 .search-container {
@@ -76,7 +86,13 @@
     padding: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
-    background-color: #331436;;
+    background-color: #331436;
+    color: #FFFFFF;
+    transition: border-color 0.3s ease;
+}
+
+.search-field:hover {
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .search-button {
@@ -86,6 +102,12 @@
     background: none;
     border: none;
     margin-left: -30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.search-button:hover {
+    opacity: 0.7;
 }
 
 .search-button img {
@@ -146,6 +168,11 @@
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 12px;
+    transition: box-shadow 0.5s ease;
+}
+
+.task-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card-header {
@@ -212,6 +239,12 @@
     top: 5px;
     left: 5px;
     border: 4px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.delete-icon:hover {
+    opacity: 0.5;
 }
 
 .users {
@@ -268,14 +301,19 @@
     }
     
     .circle {
-    width: 34px;
-    height: 34px;
-    background: #FFFFFF;
-    border-radius: 50%;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        width: 34px;
+        height: 34px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .circle:hover {
+        transform: scale(1.1);
     }
     
     .facebook-icon {
@@ -322,6 +360,12 @@
     }
     
     .footer-link {
-    text-decoration: none;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .footer-link:hover {
+        color: #FCF4B6;
     }
     

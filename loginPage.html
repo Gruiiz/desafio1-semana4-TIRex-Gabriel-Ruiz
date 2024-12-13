@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loginPage</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loginStyles.css">
 </head>
 <body>
     <header class="header">
@@ -29,7 +29,7 @@
                         <div class="lp-title-input">
                             <span class="lp-text-input">Email</span>
                         </div>
-                        <input type="text" class="lp-textfield" placeholder="Enter your email">   
+                        <input type="text" id="lp-email" class="lp-textfield" placeholder="Enter your email">   
                     </div>
                 </div>
 
@@ -38,11 +38,11 @@
                         <div class="lp-title-input">
                             <span class="lp-text-input">Password</span>
                         </div>
-                        <input type="text" class="lp-textfield" placeholder="Enter your password">   
+                        <input type="text" id="lp-password" class="lp-textfield" placeholder="Enter your password">   
                     </div>
                 </div>
 
-                <button class="lp-primary-button">
+                <button id="lp-button" class="lp-primary-button">
                     <span class="lp-button-text">Login</span>
                 </button>
             </div>
@@ -94,6 +94,6 @@
             <a class="footer-link">Terms of Service</a>
         </div>
     </footer>
-    
+    <script src="./javascript/js.js"></script>
 </body>
 </html>
