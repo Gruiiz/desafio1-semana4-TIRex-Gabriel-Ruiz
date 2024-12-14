@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var homeLink = document.getElementById('kb-home');
-    var loginButton = document.getElementById('login-button');
+    const homeLink = document.getElementById('kb-home');
+    const loginButton = document.getElementById('login-button');
 
     if (homeLink) {
         homeLink.onclick = function(e) {
